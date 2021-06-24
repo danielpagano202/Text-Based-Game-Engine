@@ -1,4 +1,3 @@
-#from distutils.core import setup
 from setuptools import setup
 from os import path
 this_directory = path.abspath(path.dirname(__file__))
@@ -6,7 +5,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 setup(
   name = 'textgameengine',
-  version = '0.37',
+  version = '0.38',
   license='MIT',
   description = 'A game engine made in python which uses text as its graphic interface instead of regular 2d shapes and sprites.',
   long_description=long_description,
@@ -14,7 +13,7 @@ setup(
   author = 'Daniel Pagano',
   author_email = 'danielpagano202@gmail.com',
   url = 'https://github.com/toasterstrudelz/Text-Based-Game-Engine',
-  download_url = 'https://github.com/toasterstrudelz/Text-Based-Game-Engine/archive/refs/tags/v_0.4.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/toasterstrudelz/Text-Based-Game-Engine/archive/refs/tags/v_0.5.tar.gz',    # I explain this later on
   keywords = ['Python', 'Text', 'Game-Engine'],
   classifiers=[
     'Development Status :: 3 - Alpha',     
