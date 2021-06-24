@@ -8,7 +8,7 @@ setup(
   author = 'Daniel Pagano',
   author_email = 'danielpagano202@gmail.com',
   url = 'https://github.com/toasterstrudelz/Text-Based-Game-Engine',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/toasterstrudelz/Text-Based-Game-Engine/archive/refs/tags/v_0.3.tar.gz',    # I explain this later on
   keywords = ['Python', 'Text', 'Game-Engine'],
   install_requires=[            # I get to this in a second
           'validators',
