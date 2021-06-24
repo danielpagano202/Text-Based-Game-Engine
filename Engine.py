@@ -1,5 +1,3 @@
-from typing import List
-
 class GameObject:
     #Origin stage / Stage that this Game Object is located on
     stage = None
@@ -172,7 +170,7 @@ class Stage:
     character = "0"
     board = []
     futureboard = []
-    objects: List[GameObject]  = []
+    objects = []
     def __init__(self, height, width, character):
         self.height = height
         self.width = width

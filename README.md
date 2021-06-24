@@ -13,4 +13,3 @@ A game engine made in python which uses text as its graphic interface instead of
 ## Uses of Engine:
 * Platforms which only allow for text input
 * Simple python console games
-
